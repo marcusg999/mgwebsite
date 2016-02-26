@@ -2096,12 +2096,12 @@
 
 	#header {
 		position: relative;
-		background-image: url("../../images/Header copy-crop.jpg");
+		background-image: url("../../images/codingbrain.jpg");
 		background-size: cover;
 		background-position: center center;
 		background-attachment: fixed;
     background: opacity: .01;
-		color: black;
+		color: white;
 		text-align: center;
 		padding: 8.5em 0 2em 0;
 		cursor: default;
