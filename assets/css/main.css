@@ -2101,7 +2101,7 @@
 		background-position: center center;
 		background-attachment: fixed;
     background: opacity: .01;
-		color: white;
+		color: black;
 		text-align: center;
 		padding: 8.5em 0 2em 0;
 		cursor: default;
@@ -2141,8 +2141,8 @@
 		}
 
 			#header h1 a {
-				color: White;
-        font-size: 130px;
+				color: black;
+        font-size: 150px;
         font-family: helvetica;
 
 
