@@ -2059,26 +2059,7 @@
 			-moz-osx-font-smoothing: grayscale;
 		}
 
-		.icon > .label {
-			display: none;
-		}
 
-		.icon.circled {
-			position: relative;
-			display: inline-block;
-			background: #2b252c;
-			color: #fff;
-			border-radius: 100%;
-			width: 3em;
-			height: 3em;
-			line-height: 3.25em;
-			text-align: center;
-			font-size: 1.25em;
-		}
-
-			header .icon.circled {
-				margin: 0 0 2em 0;
-			}
 
 /* Wrapper */
 
@@ -2097,15 +2078,15 @@
 	#header {
 		position: relative;
 		background-image: url("../../images/codingbrain.jpg");
-		background-size: cover;
+		/*background-size: cover;*/
 		background-position: center center;
 		background-attachment: fixed;
     background: opacity: .01;
 		color: black;
 		text-align: center;
-		padding: 8.5em 0 2em 0;
+		padding: 0em 0 2em 0;
 		cursor: default;
-    font-size: 33px;
+    font-size: 30 em;
 
 
 	}
@@ -2142,7 +2123,7 @@
 
 			#header h1 a {
 				color: black;
-        font-size: 150px;
+        font-size: 3em;
         font-family: helvetica;
 
 
