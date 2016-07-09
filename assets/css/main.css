@@ -2125,9 +2125,12 @@
 				color: black;
         font-size: 2.6em;
         font-family: helvetica;
-
-
 			}
+
+      #header .inner p {
+        font-size: 2em;
+
+      }
 
 		#header .button {
 			display: inline-block;
