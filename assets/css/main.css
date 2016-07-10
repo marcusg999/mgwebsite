@@ -1581,8 +1581,14 @@
 		font-weight: 400;
 		color: #483949;
 		line-height: 1.25em;
+    font-size: 9em;
+    padding-top: 8px;
 	}
 
+  h1 {
+    font-size: 9em;
+    padding-top: 200px;
+  }
 	h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
 		color: inherit;
 		text-decoration: none;
@@ -1731,7 +1737,7 @@
 /* Image */
 
 	.image {
-		position: relative;
+		position: static;
 		display: inline-block;
 		border: 0;
 		outline: 0;
@@ -1740,6 +1746,7 @@
 		.image img {
 			display: block;
 			width: 100%;
+
 		}
 
 		.image.fit {
@@ -2073,13 +2080,22 @@
 			padding-top: 0;
 		}
 
-/* Header */
 
-	#header {
+.article main {
+
+  posi
+}
+/* Header */
+  #header {
+    position: fixed;
+
+  }
+
+
+	#header2 {
 		position: relative;
 		background-image: url("../../images/codingbrain.jpg");
-		/*background-size: cover;*/
-		background-position: center center;
+		background-size: cover;
 		background-attachment: fixed;
     background: opacity: .01;
 		color: black;
@@ -2117,7 +2133,7 @@
 
 		#header h1 {
 			color: black;
-			font-size: 3em;
+			font-size: 5em;
 			line-height: 2em;
 		}
 
@@ -2350,6 +2366,8 @@
 			padding-top: 2em;
 		}
 
+
+
 /* Footer */
 
 	#footer {
@@ -2421,7 +2439,7 @@
 		/* Basic */
 
 			body, input, textarea, select {
-				font-size: 12pt;
+				/*font-size: 12pt;*/
 				line-height: 1.5em;
 			}
 
@@ -2542,6 +2560,7 @@
 					margin-bottom: 0;
 				}
 
+
 			.row > section, .row > article {
 				margin-bottom: 2em;
 			}
@@ -2563,6 +2582,8 @@
 			.image.centered {
 				margin: 0 0 1em 0;
 			}
+
+
 
 		/* List */
 
@@ -2868,24 +2889,5 @@
 				padding-right: 1em;
 			}
 
-		/* Carousel */
 
-			.carousel {
-				padding: 0.5em 0 0.5em 0;
-			}
 
-				.carousel .reel {
-					padding: 0 0.5em 0 0.5em;
-				}
-
-				.carousel article {
-					width: 14em;
-					padding-bottom: 2em;
-					margin: 0 0.5em 0 0;
-				}
-
-					.carousel article .image {
-						margin-bottom: 2em;
-					}
-
-	}
