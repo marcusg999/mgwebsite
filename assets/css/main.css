@@ -1581,12 +1581,12 @@
 		font-weight: 400;
 		color: #483949;
 		line-height: 1.25em;
-    font-size: 9em;
+    font-size: 3em;
     padding-top: 8px;
 	}
 
   h1 {
-    font-size: 9em;
+    font-size: 8em;
     padding-top: 200px;
   }
 	h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
@@ -1746,6 +1746,9 @@
 		.image img {
 			display: block;
 			width: 100%;
+      border-radius: 25px;
+
+
 
 		}
 
@@ -1754,10 +1757,11 @@
 			width: 100%;
 		}
 
-		.image.featured {
+		.image.featured2 {
 			display: block;
-			width: 100%;
-			margin: 0 0 4em 0;
+			width: 80%;
+			/*margin: 0 0 4em 0;*/
+      padding-left: 240px;
 		}
 
 		.image.left {
