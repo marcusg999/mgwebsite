@@ -137,7 +137,6 @@
   color: white;
 }
 /* Containers */
-
 	.container {
 		margin-left: auto;
 		margin-right: auto;
@@ -302,10 +301,14 @@
 		-moz-box-sizing: border-box;
 		-webkit-box-sizing: border-box;
 		box-sizing: border-box;
+
 	}
 
 	.row > * {
-		float: left;
+
+      float: right;
+       height: 480px;
+    width: 50%;
 		-moz-box-sizing: border-box;
 		-webkit-box-sizing: border-box;
 		box-sizing: border-box;
@@ -1816,19 +1819,17 @@
 
 /* Image */
 
-	.image {
-		position: static;
-		display: inline-block;
-		border: 0;
-		outline: 0;
+  	 .image {
+  		position: static;
+  		display: inline-block;
+  		border: 0;
+  		outline: 0;
 	}
 
 		.image img {
 			display: block;
 			width: 100%;
       border-radius: 25px;
-
-
 
 		}
 
@@ -1839,9 +1840,9 @@
 
 		.image.featured2 {
 			display: block;
-			width: 100%;
+			width: 75%;
 			margin: 0 0 4em 0;
-      /*padding-left: 220px;*/
+      padding-left: 220px;
 		}
 
 		.image.left {
@@ -1854,27 +1855,27 @@
 			margin: 0 0 2em 0;
 		}
 
-			.image.centered img {
-				margin: 0 auto;
-				width: auto;
+		.image.centered img {
+			margin: 0 auto;
+			width: auto;
 			}
 
 /* List */
 
-	ul.default {
-		list-style: disc;
-		padding-left: 1em;
+  	  ul.default {
+  		list-style: disc;
+  		padding-left: 1em;
 	}
 
-		ul.default li {
+		  ul.default li {
 			padding-left: 0.5em;
 		}
 
-	ul.actions {
-		margin: 3em 0 0 0;
+  	  ul.actions {
+  		margin: 3em 0 0 0;
 	}
 
-		form ul.actions {
+		  form ul.actions {
 			margin-top: 0;
 		}
 
@@ -2080,7 +2081,6 @@
 		}
 
 
-
 /* Wrapper */
 
 	.wrapper {
@@ -2089,10 +2089,10 @@
 		padding: 6em 0 6em 0;
 	}
 
-		.wrapper.style2 {
+		.wrapper.style1 {
 			padding-top: 0;
-		}
-
+      overflow: auto;
+    }
 
 .article main {
 
@@ -2109,15 +2109,13 @@
 		position: relative;
 		background-image: url("../../images/codingbrain.jpg");
 		background-size: cover;
-		background-attachment: fixed, center;
+		background-attachment: fixed;
     background: opacity: .01;
 		color: black;
 		text-align: center;
 		padding: 0em 0 2em 0;
 		cursor: default;
     font-size: 30 em;
-
-
 	}
 
 		#header:before {
@@ -2589,7 +2587,7 @@
 				width: 100%;
 			}
 
-			/**/
+
 					#navPanel .link:first-child {
 						border-top: 0;
 					}
