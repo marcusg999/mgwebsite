@@ -2107,7 +2107,7 @@
 
 	#header2 {
 		position: relative;
-		background-image: url("../../images/codingbrain.jpg");
+		background-image: url("../../images/codingbrain.jpg") ;
 		background-size: cover;
 		background-attachment: fixed;
     background: opacity: .01;
@@ -2318,6 +2318,7 @@
 
 /* Main */
 
+
 	#main {
 		margin-bottom: 0;
 	}
@@ -2327,6 +2328,12 @@
 		}
 
 
+.VRImg {
+  height: 70%;
+  width: 100%;
+  float: left;
+ margin-left: -8em;
+}
 
 /* Footer */
 
